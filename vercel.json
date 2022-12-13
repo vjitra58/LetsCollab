@@ -9,7 +9,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/public/index.html"
+        },
+         {
+            "src": "/room.html/(.*)",
+            "dest": "/public/room.html"
         }
     ]
 }
